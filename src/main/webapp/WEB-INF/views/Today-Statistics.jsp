@@ -14,11 +14,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/resources/css/common2.css">
 <title>Insert title here</title>
 </head>
 <body>
-	<div id="wrapper">
-		<jsp:include page="./component/title.jsp" />
+	<header>
+		<%@include file="/WEB-INF/views/component/profile.jsp" %>
+		<%@include file="/WEB-INF/views/component/title.jsp" %>
+	</header>
+	<div id="container">
 
 		<article>
 			<div id="emotionSummaryIcon">
@@ -28,6 +33,7 @@
 			
 			<div id="emotionGraph">
 				<span>오늘의 감정 추이</span>
+
 			</div>
 			
 			<div id="emotionSummaryText">
