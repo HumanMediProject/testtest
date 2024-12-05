@@ -9,6 +9,7 @@ public class UserDTO {
 	private String email;
 	private String name;
 	private int gender;
+
 	private String diary_passcode;
 	private String hashed_password;
 	private int authentication_provider;
@@ -19,6 +20,11 @@ public class UserDTO {
 	public void setDiary_passcode(String diary_passcode) {
 		this.diary_passcode = diary_passcode;
 	}
+
+	private String hashed_password;
+	private int authentication_provider;
+	
+
 	public int getUser_id() {
 		return user_id;
 	}

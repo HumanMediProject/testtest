@@ -14,8 +14,8 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import org.yaml.snakeyaml.Yaml;
 
+import org.yaml.snakeyaml.Yaml;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -36,6 +36,7 @@ public class MyBatisConfig {
 	
 	@Bean
 	public DataSource dataSource() {
+
 		HikariConfig config = new HikariConfig();
 		try {
 			Map<String, Object> propMap = new Yaml().load(new FileReader("hello.yml"));
@@ -50,8 +51,6 @@ public class MyBatisConfig {
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
-		
 		HikariDataSource ds = new HikariDataSource(config);
 		
 		return ds;

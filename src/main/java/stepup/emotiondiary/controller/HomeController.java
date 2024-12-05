@@ -12,7 +12,7 @@ public class HomeController {
 	
 	@Autowired
 	UserService service;
-	
+
 	@GetMapping(value="")
 	public String test(Model model) {
 		
