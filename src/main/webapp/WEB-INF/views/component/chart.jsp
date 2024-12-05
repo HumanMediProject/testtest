@@ -10,7 +10,9 @@
 </head>
 <body>
   <canvas id="myChart" width="400" height="200"></canvas>
+
   <!-- 
+
   <div>
     <button id="randomize">Randomize</button>
     <button id="addDataset">Add Dataset</button>
@@ -18,6 +20,7 @@
     <button id="removeDataset">Remove Dataset</button>
     <button id="removeData">Remove Data</button>
   </div>
+
 	 -->
   <script>
   

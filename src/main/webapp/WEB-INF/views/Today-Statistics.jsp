@@ -24,6 +24,7 @@
 		<%@include file="/WEB-INF/views/component/title.jsp" %>
 	</header>
 	<div id="container">
+
 		<article>
 			<div id="emotionSummaryIcon">
 				<span>나의 하루는?</span>
@@ -32,11 +33,11 @@
 			
 			<div id="emotionGraph">
 				<span>오늘의 감정 추이</span>
-				<%@include file="/WEB-INF/views/chartviewer.jsp" %>
+
 			</div>
 			
 			<div id="emotionSummaryText">
-				<span>종합</span><br>
+				<span>종합</span>
 				
 				<jsp:include page="./component/summary.jsp" />
 			</div>

@@ -3,5 +3,4 @@
 <div id="logo">
 	<span id="logoTitle">Setup</span>
 	<span id="logoDescription"><%= request.getAttribute("description") %></span>
-	
 </div>
