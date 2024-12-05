@@ -25,6 +25,4 @@ public class MainEditorController {
 	public ModelAndView editorFocused(HttpServletResponse response) throws IOException{
 		return new ModelAndView("Editor");
 	}
-	
-	
 }

@@ -5,8 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>감정 일지 | 월별 통계</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/resources/css/common2.css">
+
  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
     <script>
 
@@ -26,13 +28,11 @@
         calendar.render();
       });
 	
-      
-      
-
 
     </script>
 </head>
 <body>
+
 	<div id="container">
 		<header>
 			<%@include file="/WEB-INF/views/component/profile.jsp" %>
@@ -49,6 +49,7 @@
 			<button>확인</button>
 			
 		</div>
+
 	</div>
 </body>
 </html>

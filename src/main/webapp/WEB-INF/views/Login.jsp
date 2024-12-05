@@ -6,12 +6,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/resources/css/common.css">
+
 <title>Login</title>
 </head>
 <body>
 	<!-- 상단 헤더 -->
 	<header>
 		<%@include file="/WEB-INF/views/component/title.jsp" %>
+
 	</header>
 	
 	<!-- 로그인 폼 -->

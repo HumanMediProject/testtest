@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>감정 일지 | 작성하기</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/resources/css/common2.css">
 </head>

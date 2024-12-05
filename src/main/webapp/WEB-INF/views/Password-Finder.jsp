@@ -5,17 +5,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="/resources/css/common.css">
+
 <title>Password-Finder</title>
 </head>
 <body>
 	<!-- 상단 헤더 -->
 	<header>
+
 		<%@include file="/WEB-INF/views/component/title.jsp" %>
+
 	</header>
 	
 	<!-- 비밀번호 찾기 폼 -->
 	<div id=container>
+
 		<form action="" id="pwFinderForm">
 			<div id="passwordFinderBox">
 				<label class="input_label">ID</label>
@@ -27,6 +32,7 @@
 				<button onclick="" id="canselBtn" class="password_finder_btn">취소</button>
 				<button type="submit" id="passwordFinderBtn" class="password_finder_btn">비밀번호 찾기</button>
 			</div>
+
 		</form>
 	</div>
 
